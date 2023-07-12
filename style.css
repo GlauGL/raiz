@@ -1,0 +1,33 @@
+body {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#mensagem {
+    margin-left: 600px;
+}
+
+#formulario {
+    margin-inline: auto;
+    background-color: rgb(65, 151, 151);
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+
+    width:  25%;
+    border: 2px solid;
+    height: 200px;
+    padding: 20px;
+}
+
+#formulario form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#formulario input {
+    margin-top: 20px;
+}
